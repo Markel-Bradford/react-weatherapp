@@ -5,7 +5,6 @@ import CurrentWeather from "./components/current-weather/current-weather";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./components/api";
 import Forecast from "./components/forecast/forecast";
 import Details from "./components/details/details";
-import {BrowserRouter as Router} from "react-router-dom";
 
 
 function App() {
@@ -39,7 +38,6 @@ function App() {
   console.log(forecast);
 
   return (
-    <Router basename="/react-weatherapp">
     <div className="background">
       <div className="container">
         <Search
@@ -52,7 +50,6 @@ function App() {
           {forecast && <Forecast data={forecast} />}
       </div>
     </div>
-    </Router>
   );
 }
 
