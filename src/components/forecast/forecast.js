@@ -37,7 +37,7 @@ const Forecast = ({ data }) => {
                     <label className="min">
                       {Math.round(item.main.temp_min)}°F
                     </label>
-                    <label className="slash">/</label>
+                    
                     <label className="max">
                       {Math.round(item.main.temp_max)}°F
                     </label>

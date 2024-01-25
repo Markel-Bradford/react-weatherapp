@@ -6,6 +6,7 @@ import "./search.css";
 const Search = ({ onSearchChange }) => {
   const [search, setSearch] = useState(null);
 
+
   const handleOnChange = (searchData) => {
     /*handles data passed into AsyncPaginate component*/
     setSearch(searchData);
