@@ -5,7 +5,8 @@
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-
+  position: fixed;
+  overflow-y: scroll;
 }
 .container{
   max-width: 1080px;
